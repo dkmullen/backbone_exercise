@@ -1,0 +1,38 @@
+/* CSS */
+body {
+	max-width: 400px;
+	margin: 20px auto;
+	font-family: 'PT Sans', sans-serif;
+}
+h1 {
+	font-variant: small-caps;
+}
+form {
+	width: 350px;
+	padding: 50px;
+	text-align: center;
+	display: block;
+	border: 30px solid #0C445F;
+}
+ul {
+	list-style: none;
+	text-align: left;
+}
+#price {
+	float: right;
+}
+li {
+	background-color: #D9E1DD;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+#order {
+	background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
