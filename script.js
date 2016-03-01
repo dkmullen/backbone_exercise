@@ -1,6 +1,6 @@
 (function($){
 	
-	//our model
+	/*our model
 	var Person = Backbone.Model.extend({
 		defaults: {
 			name: '',
@@ -13,7 +13,7 @@
 	//our collection
 	var People = Backbone.Collection.extend({
 		model: Person,
-		localStorage: new Backbone.localStorage('people-store')
+		localStorage: new Backbone.LocalStorage('people-store')
 	});
 	
 	var people = new People(); //initialize everything
@@ -30,7 +30,7 @@
 	DM.set('BP1', 138);
 	
 
-	//our view
+	//our view*/
 	var ListView = Backbone.View.extend({
 		//the DOM elem we bind this.el to - can be any valid CSS selector
 		el: $('body'),
@@ -51,6 +51,7 @@
 		
 		addItem: function() {
 			$('#list').append('<li>Another one</li>');
+			console.log('K');
 		},
 		removeItem: function() {
 			$('#list li:last').remove();
